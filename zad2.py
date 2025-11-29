@@ -14,8 +14,8 @@ def skladana(liczby_skladana):
   mnozenie_skladna = [liczba_skladana*2 for liczba_skladana in liczby_skladana]
   return mnozenie_skladna
 
-wynik_skladna = skladana(x)
+wynik_skladana = skladana(x)
 
 print(f"Liczby: {x}")
 print(f"Mnożenie petla: {wynik_petla}")
-print(f"Mnożenie skladana: {wynik_skladna}")
+print(f"Mnożenie skladana: {wynik_skladana}")
