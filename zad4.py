@@ -1,8 +1,10 @@
-lista_liczb = list(range(1,11))
+def function(liczba1, liczba2, liczba3):
+  warun = (liczba1 + liczba2) >= liczba3
+  return warun
 
-def co_drugi(liczby):
-  co_drugi = liczby[::2]
-  for element in co_drugi:
-    print(element)
+x = 3
+y = 2
+z = 10
 
-co_drugi(lista_liczb)
+wynik1 = function(x,y,z) 
+print(wynik1)
