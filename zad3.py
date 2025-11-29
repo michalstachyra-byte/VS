@@ -1,10 +1,19 @@
-liczby_10 = list(range(1,11))
+def parzystosc(liczba):
+  return liczba % 2 == 0
 
-def parzyste(liczby):
-  for x in liczby:
-    if (x%2 == 0):
-      print(x)
+x = 54
 
-print(f"Liczby to: {liczby_10}\n")
-print("Parzyste z nich:")
-parzyste(liczby_10)
+wynik = parzystosc(x)
+
+if wynik:
+  print("Liczba parzysta")
+else:
+  print("Liczba nieparzysta")
+
+x1=67
+wynik1 = parzystosc(x1)
+
+if wynik1:
+  print("Liczba parzysta")
+else:
+  print("Liczba nieparzysta")
