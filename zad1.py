@@ -1,14 +1,10 @@
+def zadanie1(name, surname):
+  siema = f"Cześć {name} {surname}!"
+  return siema
 
-x=['Natalia', 'Michał', 'Joanna', 'Mirosław', 'Laura']
+imie = "Michał"
+nazwisko = "Stachyra"
 
-def wyswietl_imie(imiona):
-  for imie in imiona:
-    print(F"{imie}")
-
-    if len(imiona) != 5:
-      print("Lista nie zawiera 5 imion")
-
-wyswietl_imie(x)
-
-
+wynik = zadanie1(imie, nazwisko)
+print(wynik)
 
